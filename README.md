@@ -163,7 +163,7 @@ Or run individual teardown steps as needed (see `./hack/teardown.sh` for availab
 We provide several sample applications demonstrating Agent Substrate's capabilities:
 
 1. **[Counter Demo](demos/counter/README.md)**: A stateful Go HTTP server demonstrating state preservation across suspends/resumes, and dynamic CRD routing.
-2. **[Sandbox Demo (Jetski)](demos/sandbox/README.md)**: A secure, sandboxed execution environment (running Alpine Linux) that allows arbitrary shell execution while preserving filesystem state across sessions.
+2. **[Sandbox Demo (Antigravity)](demos/sandbox/README.md)**: A secure, sandboxed execution environment (running Alpine Linux) that allows arbitrary shell execution while preserving filesystem state across sessions.
 3. **[Claude Code Multiplex](demos/claude-code-multiplex/README.md)**: Demonstrates oversubscribing physical hardware by multiplexing multiple Claude Code agents onto a limited pool of workers.
 4. **[Secret Agent](demos/agent-secret/README.md)**: Highlights Substrate's "Zero-Idle" self-suspension and re-animation of volatile process memory.
 
